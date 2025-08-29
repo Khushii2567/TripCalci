@@ -18,9 +18,9 @@ Trip Calci is a simple web app that helps users calculate total trip expenses ba
 
 Frontend: React + Vite
 
-Styling: Tailwind CSS (if you used it) / CSS3
+Styling: Tailwind CSS 
 
-Deployment: Netlify / Vercel (optional)
+Deployment: Netlify 
 
 🚀 Getting Started
 1️⃣ Clone the repository
@@ -51,7 +51,7 @@ npm run build
 🌐 Live Demo
 
 👉 Click here to try it out
- (if deployed)
+ (https://tripcalci.netlify.app/)
 ## 📁 Project Structure
 
 ```
