@@ -1,40 +1,57 @@
-# React
+🌍 Trip Calci
 
-A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
+Trip Calci is a simple web app that helps users calculate total trip expenses based on the number of members, number of days, source, and destination. It provides a quick estimate of accommodation and travel costs for trip planning.
 
-## 🚀 Features
+✨ Features
 
-- **React 18** - React version with improved rendering and concurrent features
-- **Vite** - Lightning-fast build tool and development server
-- **Redux Toolkit** - State management with simplified Redux setup
-- **TailwindCSS** - Utility-first CSS framework with extensive customization
-- **React Router v6** - Declarative routing for React applications
-- **Data Visualization** - Integrated D3.js and Recharts for powerful data visualization
-- **Form Management** - React Hook Form for efficient form handling
-- **Animation** - Framer Motion for smooth UI animations
-- **Testing** - Jest and React Testing Library setup
+👫 Enter number of members going on the trip
 
-## 📋 Prerequisites
+📅 Enter number of days for the trip
 
-- Node.js (v14.x or higher)
-- npm or yarn
+🏠 Calculates accommodation expenses
 
-## 🛠️ Installation
+🚌 Calculates travel expenses (based on source & destination)
 
-1. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-   
-2. Start the development server:
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
+📊 Shows total cost of the trip in a clean summary
 
+🛠️ Tech Stack
+
+Frontend: React + Vite
+
+Styling: Tailwind CSS (if you used it) / CSS3
+
+Deployment: Netlify / Vercel (optional)
+
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone (https://github.com/Khushii2567/TripCalci.git)
+cd tripCalci
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run the project locally
+npm run dev
+
+
+Now open http://localhost:5173
+ in your browser.
+
+4️⃣ Build for production
+npm run build
+
+## 📷 Screenshots
+
+### Home Page  
+![Home Page](screenshots/homepage.png)
+
+### Trip Calculation Result  
+![Result Page](screenshots/result.png)
+
+🌐 Live Demo
+
+👉 Click here to try it out
+ (if deployed)
 ## 📁 Project Structure
 
 ```
@@ -52,56 +69,21 @@ react_app/
 ├── package.json        # Project dependencies and scripts
 ├── tailwind.config.js  # Tailwind CSS configuration
 └── vite.config.js      # Vite configuration
-```
+``` 
 
-## 🧩 Adding Routes
+📈 Future Enhancements
 
-To add new routes to the application, update the `Routes.jsx` file:
+🍽️ Add food expenses calculation
 
-```jsx
-import { useRoutes } from "react-router-dom";
-import HomePage from "pages/HomePage";
-import AboutPage from "pages/AboutPage";
+🌦️ Integrate weather API for trip planning
 
-const ProjectRoutes = () => {
-  let element = useRoutes([
-    { path: "/", element: <HomePage /> },
-    { path: "/about", element: <AboutPage /> },
-    // Add more routes as needed
-  ]);
+🌍 Currency conversion for international trips
 
-  return element;
-};
-```
+📱 Make fully responsive for mobile
 
-## 🎨 Styling
+👨‍💻 Author
 
-This project uses Tailwind CSS for styling. The configuration includes:
-
-- Forms plugin for form styling
-- Typography plugin for text styling
-- Aspect ratio plugin for responsive elements
-- Container queries for component-specific responsive design
-- Fluid typography for responsive text
-- Animation utilities
-
-## 📱 Responsive Design
-
-The app is built with responsive design using Tailwind CSS breakpoints.
+Khushii2567 – github.com/Khushii2567
 
 
-## 📦 Deployment
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-## 🙏 Acknowledgments
-
-- Built with [Rocket.new](https://rocket.new)
-- Powered by React and Vite
-- Styled with Tailwind CSS
-
-Built with ❤️ on Rocket.new
+⚡ Made with React + Vite to simplify trip planning
